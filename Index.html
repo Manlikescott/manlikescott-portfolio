@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thankgod Akor Idoko - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Thankgod Akor Idoko
+          <div class="contact_info">
+            <img src="Envelop.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          manlikescott6@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="phoneicon.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +2349076207798
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#Skills">Skills</a>
+          <a class="topmenu" href="#Projects">Projects</a>
+          <a class="topmenu" href="#Recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="Subject.png" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Thankgod Akor Idoko! <img src="helloicon.png" width="100px"/>
+          </h1>
+          <p>
+            I am a frontend developer and also a desktop publisher and graphic design with 1.5 year of experience in both Html,Css and 1 year of experience in JavaScript and in microsoft word.
+            
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="Htmlicon.png"/>
+          <h6>HTML</h6>
+          <p>1.5 year experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="Cssicon.png"/>
+          <h6>CSS</h6>
+          <p>1.5 year experience</p>
+        </div>  
+
+         <div class="skill">
+          <img src="Javascripticon.png"/>
+          <h6>JavaScript</h6>
+          <p>1 year experience</p>
+        </div>  
+
+         <div class="skill">
+          <img src="Graphic icon.png"/>
+          <h6>graphic design</h6>
+          <p>1.5 year experience</p>
+        </div>  
+
+         <div class="skill">
+          <img src="Desktop publishing icon.png"/>
+          <h6>Desktop Publishing</h6>
+          <p>1.5 year experience</p>
+        </div>  
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Strenths Statement</h3>
+            <ul>
+              <li>I am always finding new ideals and testing theories. I have always been a "tinkerer" in that I am interested in how things function.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Interest Statement</h3>
+            <ul>
+              <li>I am super interested in all things Continuos Improvement! Lean Six sigma was a new idea in my previous employment, so there were not opportunities like this.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>development Statement</h3>
+            <ul>
+              <li>I have an interest in project management, so i hope this class will also teach me more about leading teams and projects.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I am writing to recommend Thankgod for the position of a web developer and graphic designer. During his time working with us, he consistently demonstrated exceptional technical skills and creativity. he has expertise in various programming languages, including HTML, CSS, JavaScript as well as experience using coreldraw graphic Suite to create visually appealing designs.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Thankgod is a detail-oriented and highly motivated individual who is committed to delivering quality work on time. He has excellent problem-solving skills and is always willing to take on new challenges to expand his knowledge and skills.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Overall, I highly recommend Thankgod for the position of a web developer and graphic designer. He would be a valuable asset to any team, and I am confident that he would make significant contributions to your organization.
+
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="onclick" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="okicon.png"width="20px">
+      <h3>Thanks for leaving a recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
